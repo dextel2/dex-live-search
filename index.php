@@ -1,4 +1,9 @@
-<?php ?>
+<?php
+    include 'db.php';
+    $ConnectionObject = new Connection();
+    $ConnectionObject->setVariables("localhost","root","","livesearch");
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
