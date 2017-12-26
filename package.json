@@ -1,0 +1,25 @@
+{
+  "name": "php-ajax-live-search",
+  "version": "1.0.0",
+  "description": "Learning PHP Live search with the help of AJX",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dextel2/dex-live-search.git"
+  },
+  "keywords": [
+    "php",
+    "ajax",
+    "live",
+    "dex"
+  ],
+  "author": "Yash Karanke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dextel2/dex-live-search/issues"
+  },
+  "homepage": "https://github.com/dextel2/dex-live-search#readme"
+}
