@@ -1,7 +1,8 @@
 <?php
     include 'db.php';
     $ConnectionObject = new Connection();
-    $ConnectionObject->setVariables("localhost","root","","livesearch");
+    echo $ConnectionObject->setVariables("localhost","root","","livesearch");
+    echo $ConnectionObject->playingWithDatabase();
 
 ?>
 <!DOCTYPE html>

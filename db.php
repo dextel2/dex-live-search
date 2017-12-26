@@ -22,7 +22,8 @@ function playingWithDatabase(){
     try{
     	$this->result = $this->conn->prepare("SELECT * FROM live");
     	$this->result->execute();
-    	$this->rows = $this->result->fetch(PDO::FETCH_NUM);
+        $this->rows = $this->result->fetch(PDO::FETCH_NUM);
+        return $this->rows[1];
     }
     catch (Exception $e){
     	return "Failure";
