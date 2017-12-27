@@ -30,7 +30,5 @@ function playingWithDatabase(){
     }
     return $this->rows;
 }
-
-
 }
 ?>
